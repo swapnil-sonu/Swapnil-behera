@@ -1,0 +1,121 @@
+body{
+  background-color: #DA7F8F;
+  text-align: center;
+  margin: auto;
+}
+
+.bottom-container{
+  background-color: #E99497;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #f7c2f9;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.contact{
+  padding: 5% 0 5% 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  color: #820000;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.profile{
+  height: 15%;
+  width: 15%;
+}
+
+img{
+  height: 10%;
+  width: 10%;
+}
+
+h1{
+  font-family: "papyrus";
+  line-height: 2;
+  color: #820000;
+}
+
+.occup{
+  color: #B9005B;
+  font-size: 25px;
+  font-weight: inherit;
+}
+
+h3{
+  color: #B9005B;
+}
+
+.top{
+  background-color: #E99497;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.skills{
+  padding: 5% 0 5% 0;
+}\
+
+.hobbies{
+  padding: 5% 0 5% 0;
+}
+
+p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  word-spacing: 0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
